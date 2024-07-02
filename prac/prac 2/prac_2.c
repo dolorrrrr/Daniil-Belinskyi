@@ -2,7 +2,10 @@
 
 int main(void)
 {
-    printf("Practice 2");
+    int num;
+    printf("Enter a num: ");
+    scanf("%d", &num);
+    printf("%d", num);
 
     return 0;
 }
