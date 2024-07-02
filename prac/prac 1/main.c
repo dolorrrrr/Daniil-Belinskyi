@@ -7,7 +7,7 @@ int main(void)
 	double res;
 
 	printf("Input 3 values: ");
-	scanf_s("%d %d %d", &t1, &t2, &t3);
+	scanf("%d %d %d", &t1, &t2, &t3);
 
 	res = (double)(t1 + t2 + t3) / 3;
 
