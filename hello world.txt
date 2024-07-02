@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 whatts uuup!!
 new version
+=======
+whatts uuup
+change test
+>>>>>>>
