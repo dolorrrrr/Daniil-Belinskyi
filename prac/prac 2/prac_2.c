@@ -12,10 +12,15 @@ int gcd_two_nums(int a, int b)
     return a;
 }
 
+int lcm_two_nums(int a, int b)
+{
+    return (a * b)/gcd_two_nums(a, b);
+}
+
 
 int main(void)
 {
-    int size, gcd;
+    int size, lcm;
     char nums[10] = {0};
     
     printf("Enter size: ");
@@ -24,12 +29,12 @@ int main(void)
         scanf("%d", &nums[i]);
     }
 
-    gcd = nums[0];
+    lcm = nums[0];
     for(int i = 0; i < size; i++){
-        gcd = gcd_two_nums(gcd, nums[i]);
+        lcm = gcd_two_nums(lcm, nums[i]);
     }
 
-    printf("GCD: %d", gcd);
+    printf("lcm: %d", lcm);
 
     
     
