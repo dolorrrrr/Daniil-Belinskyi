@@ -22,7 +22,7 @@ int main(void)
     printf("Enter size: ");
     scanf("%d", &size);
     
-    int nums[10];
+    int nums[20];
     printf("Enter numbers: ");
     for (int i = 0; i < size; i++) {
         scanf("%d", &nums[i]);
