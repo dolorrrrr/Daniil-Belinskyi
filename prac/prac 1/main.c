@@ -9,6 +9,7 @@ int main(void)
 	printf("Input 3 values: ");
 	scanf("%d %d %d", &t1, &t2, &t3);
 
+	res = (t1+t2+t3)/3;
 
 	printf("\nTime required to eat the pie: %.2lf hours", res);
 
