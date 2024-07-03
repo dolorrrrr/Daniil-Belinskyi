@@ -11,7 +11,7 @@
 
 int main(void){
     int n, res = 0;
-    printf("Input a number: ");
+    printf("Enter a natural number n: ");
     scanf("%d", &n);
 
     for(int i = 2; i < n; i++){
@@ -20,7 +20,7 @@ int main(void){
         }
     }
 
-    printf("%d",res);
+    printf("The number of equal divisors of the number 20: %d",res);
 
     return 0;
 }
