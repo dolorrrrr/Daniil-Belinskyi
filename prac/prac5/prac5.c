@@ -7,16 +7,10 @@
 */
 #include <stdio.h>
 
-//#define MOD 12345
-
 int main() {
     int n;
     printf("Enter the sequence length: ");
     scanf("%d", &n);
-
-    if (n < 1 || n >= 10000) {
-        return 1; // Неправильне значення n
-    }
 
     if (n == 1) {
         printf("2\n");
@@ -24,7 +18,7 @@ int main() {
     }
 
     int a = 1, b = 1, c = 0;
-    int dp = 2; // для n == 1
+    int dp = 2;
 
     for (int i = 2; i <= n; ++i) {
         int new_a = (a + b + c) % 12345;
